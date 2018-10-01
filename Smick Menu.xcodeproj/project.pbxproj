@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078259AC2161C9A600F2AFE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078259AB2161C9A600F2AFE9 /* AppDelegate.swift */; };
+		078259AE2161C9A600F2AFE9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078259AD2161C9A600F2AFE9 /* FirstViewController.swift */; };
+		078259B02161C9A600F2AFE9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078259AF2161C9A600F2AFE9 /* SecondViewController.swift */; };
+		078259B32161C9A600F2AFE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078259B12161C9A600F2AFE9 /* Main.storyboard */; };
+		078259B52161C9A700F2AFE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078259B42161C9A700F2AFE9 /* Assets.xcassets */; };
+		078259B82161C9A700F2AFE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078259B62161C9A700F2AFE9 /* LaunchScreen.storyboard */; };
+		078259C32161C9A800F2AFE9 /* Smick_MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078259C22161C9A800F2AFE9 /* Smick_MenuTests.swift */; };
+		078259CE2161C9A800F2AFE9 /* Smick_MenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078259CD2161C9A800F2AFE9 /* Smick_MenuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		078259BF2161C9A800F2AFE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078259A02161C9A600F2AFE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 078259A72161C9A600F2AFE9;
+			remoteInfo = "Smick Menu";
+		};
+		078259CA2161C9A800F2AFE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078259A02161C9A600F2AFE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 078259A72161C9A600F2AFE9;
+			remoteInfo = "Smick Menu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078259A82161C9A600F2AFE9 /* Smick Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smick Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		078259AB2161C9A600F2AFE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		078259AD2161C9A600F2AFE9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		078259AF2161C9A600F2AFE9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		078259B22161C9A600F2AFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		078259B42161C9A700F2AFE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		078259B72161C9A700F2AFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		078259B92161C9A700F2AFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078259BE2161C9A800F2AFE9 /* Smick MenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smick MenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		078259C22161C9A800F2AFE9 /* Smick_MenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smick_MenuTests.swift; sourceTree = "<group>"; };
+		078259C42161C9A800F2AFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078259C92161C9A800F2AFE9 /* Smick MenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smick MenuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		078259CD2161C9A800F2AFE9 /* Smick_MenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smick_MenuUITests.swift; sourceTree = "<group>"; };
+		078259CF2161C9A800F2AFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		078259A52161C9A600F2AFE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078259BB2161C9A800F2AFE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078259C62161C9A800F2AFE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0782599F2161C9A600F2AFE9 = {
+			isa = PBXGroup;
+			children = (
+				078259AA2161C9A600F2AFE9 /* Smick Menu */,
+				078259C12161C9A800F2AFE9 /* Smick MenuTests */,
+				078259CC2161C9A800F2AFE9 /* Smick MenuUITests */,
+				078259A92161C9A600F2AFE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		078259A92161C9A600F2AFE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078259A82161C9A600F2AFE9 /* Smick Menu.app */,
+				078259BE2161C9A800F2AFE9 /* Smick MenuTests.xctest */,
+				078259C92161C9A800F2AFE9 /* Smick MenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		078259AA2161C9A600F2AFE9 /* Smick Menu */ = {
+			isa = PBXGroup;
+			children = (
+				078259AB2161C9A600F2AFE9 /* AppDelegate.swift */,
+				078259AD2161C9A600F2AFE9 /* FirstViewController.swift */,
+				078259AF2161C9A600F2AFE9 /* SecondViewController.swift */,
+				078259B12161C9A600F2AFE9 /* Main.storyboard */,
+				078259B42161C9A700F2AFE9 /* Assets.xcassets */,
+				078259B62161C9A700F2AFE9 /* LaunchScreen.storyboard */,
+				078259B92161C9A700F2AFE9 /* Info.plist */,
+			);
+			path = "Smick Menu";
+			sourceTree = "<group>";
+		};
+		078259C12161C9A800F2AFE9 /* Smick MenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				078259C22161C9A800F2AFE9 /* Smick_MenuTests.swift */,
+				078259C42161C9A800F2AFE9 /* Info.plist */,
+			);
+			path = "Smick MenuTests";
+			sourceTree = "<group>";
+		};
+		078259CC2161C9A800F2AFE9 /* Smick MenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				078259CD2161C9A800F2AFE9 /* Smick_MenuUITests.swift */,
+				078259CF2161C9A800F2AFE9 /* Info.plist */,
+			);
+			path = "Smick MenuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		078259A72161C9A600F2AFE9 /* Smick Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078259D22161C9A800F2AFE9 /* Build configuration list for PBXNativeTarget "Smick Menu" */;
+			buildPhases = (
+				078259A42161C9A600F2AFE9 /* Sources */,
+				078259A52161C9A600F2AFE9 /* Frameworks */,
+				078259A62161C9A600F2AFE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smick Menu";
+			productName = "Smick Menu";
+			productReference = 078259A82161C9A600F2AFE9 /* Smick Menu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		078259BD2161C9A800F2AFE9 /* Smick MenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078259D52161C9A800F2AFE9 /* Build configuration list for PBXNativeTarget "Smick MenuTests" */;
+			buildPhases = (
+				078259BA2161C9A800F2AFE9 /* Sources */,
+				078259BB2161C9A800F2AFE9 /* Frameworks */,
+				078259BC2161C9A800F2AFE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078259C02161C9A800F2AFE9 /* PBXTargetDependency */,
+			);
+			name = "Smick MenuTests";
+			productName = "Smick MenuTests";
+			productReference = 078259BE2161C9A800F2AFE9 /* Smick MenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		078259C82161C9A800F2AFE9 /* Smick MenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078259D82161C9A800F2AFE9 /* Build configuration list for PBXNativeTarget "Smick MenuUITests" */;
+			buildPhases = (
+				078259C52161C9A800F2AFE9 /* Sources */,
+				078259C62161C9A800F2AFE9 /* Frameworks */,
+				078259C72161C9A800F2AFE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078259CB2161C9A800F2AFE9 /* PBXTargetDependency */,
+			);
+			name = "Smick MenuUITests";
+			productName = "Smick MenuUITests";
+			productReference = 078259C92161C9A800F2AFE9 /* Smick MenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		078259A02161C9A600F2AFE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Smick Enterprises, Inc.";
+				TargetAttributes = {
+					078259A72161C9A600F2AFE9 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					078259BD2161C9A800F2AFE9 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 078259A72161C9A600F2AFE9;
+					};
+					078259C82161C9A800F2AFE9 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 078259A72161C9A600F2AFE9;
+					};
+				};
+			};
+			buildConfigurationList = 078259A32161C9A600F2AFE9 /* Build configuration list for PBXProject "Smick Menu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0782599F2161C9A600F2AFE9;
+			productRefGroup = 078259A92161C9A600F2AFE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				078259A72161C9A600F2AFE9 /* Smick Menu */,
+				078259BD2161C9A800F2AFE9 /* Smick MenuTests */,
+				078259C82161C9A800F2AFE9 /* Smick MenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		078259A62161C9A600F2AFE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078259B82161C9A700F2AFE9 /* LaunchScreen.storyboard in Resources */,
+				078259B52161C9A700F2AFE9 /* Assets.xcassets in Resources */,
+				078259B32161C9A600F2AFE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078259BC2161C9A800F2AFE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078259C72161C9A800F2AFE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078259A42161C9A600F2AFE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078259B02161C9A600F2AFE9 /* SecondViewController.swift in Sources */,
+				078259AC2161C9A600F2AFE9 /* AppDelegate.swift in Sources */,
+				078259AE2161C9A600F2AFE9 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078259BA2161C9A800F2AFE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078259C32161C9A800F2AFE9 /* Smick_MenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078259C52161C9A800F2AFE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078259CE2161C9A800F2AFE9 /* Smick_MenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		078259C02161C9A800F2AFE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 078259A72161C9A600F2AFE9 /* Smick Menu */;
+			targetProxy = 078259BF2161C9A800F2AFE9 /* PBXContainerItemProxy */;
+		};
+		078259CB2161C9A800F2AFE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 078259A72161C9A600F2AFE9 /* Smick Menu */;
+			targetProxy = 078259CA2161C9A800F2AFE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		078259B12161C9A600F2AFE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078259B22161C9A600F2AFE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		078259B62161C9A700F2AFE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078259B72161C9A700F2AFE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		078259D02161C9A800F2AFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		078259D12161C9A800F2AFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		078259D32161C9A800F2AFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 484YG62WJW;
+				INFOPLIST_FILE = "Smick Menu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smick.Smick-Menu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		078259D42161C9A800F2AFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 484YG62WJW;
+				INFOPLIST_FILE = "Smick Menu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smick.Smick-Menu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		078259D62161C9A800F2AFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 484YG62WJW;
+				INFOPLIST_FILE = "Smick MenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smick.Smick-MenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smick Menu.app/Smick Menu";
+			};
+			name = Debug;
+		};
+		078259D72161C9A800F2AFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 484YG62WJW;
+				INFOPLIST_FILE = "Smick MenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smick.Smick-MenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smick Menu.app/Smick Menu";
+			};
+			name = Release;
+		};
+		078259D92161C9A800F2AFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 484YG62WJW;
+				INFOPLIST_FILE = "Smick MenuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smick.Smick-MenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smick Menu";
+			};
+			name = Debug;
+		};
+		078259DA2161C9A800F2AFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 484YG62WJW;
+				INFOPLIST_FILE = "Smick MenuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smick.Smick-MenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smick Menu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		078259A32161C9A600F2AFE9 /* Build configuration list for PBXProject "Smick Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078259D02161C9A800F2AFE9 /* Debug */,
+				078259D12161C9A800F2AFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078259D22161C9A800F2AFE9 /* Build configuration list for PBXNativeTarget "Smick Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078259D32161C9A800F2AFE9 /* Debug */,
+				078259D42161C9A800F2AFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078259D52161C9A800F2AFE9 /* Build configuration list for PBXNativeTarget "Smick MenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078259D62161C9A800F2AFE9 /* Debug */,
+				078259D72161C9A800F2AFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078259D82161C9A800F2AFE9 /* Build configuration list for PBXNativeTarget "Smick MenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078259D92161C9A800F2AFE9 /* Debug */,
+				078259DA2161C9A800F2AFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 078259A02161C9A600F2AFE9 /* Project object */;
+}
