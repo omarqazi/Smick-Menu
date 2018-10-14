@@ -10,6 +10,8 @@
 		070FB83B2172F835003959A2 /* MenuHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FB83A2172F835003959A2 /* MenuHeaderCollectionReusableView.swift */; };
 		070FB83C2172F835003959A2 /* MenuHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FB83A2172F835003959A2 /* MenuHeaderCollectionReusableView.swift */; };
 		070FB83D2172F835003959A2 /* MenuHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FB83A2172F835003959A2 /* MenuHeaderCollectionReusableView.swift */; };
+		070FB83E21730E6A003959A2 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779ADCF2161D06900EEB75F /* OrderViewController.swift */; };
+		070FB83F21730E6A003959A2 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779ADCF2161D06900EEB75F /* OrderViewController.swift */; };
 		0779ADCE2161D00400EEB75F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779ADCD2161D00400EEB75F /* MapKit.framework */; };
 		0779ADD02161D06900EEB75F /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779ADCF2161D06900EEB75F /* OrderViewController.swift */; };
 		07809BE2216F530E00B2C4BC /* AdminTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07809BE1216F530E00B2C4BC /* AdminTableViewController.swift */; };
@@ -433,6 +435,7 @@
 				07D9033221676A5400E2B618 /* AircraftAnnotationView.swift in Sources */,
 				07809BE3216F530E00B2C4BC /* AdminTableViewController.swift in Sources */,
 				07D903302167691A00E2B618 /* AircraftAnnotation.swift in Sources */,
+				070FB83E21730E6A003959A2 /* OrderViewController.swift in Sources */,
 				078259C32161C9A800F2AFE9 /* Smick_MenuTests.swift in Sources */,
 				07CAF6852172C46A00446EA0 /* MenuCollectionViewController.swift in Sources */,
 				070FB83C2172F835003959A2 /* MenuHeaderCollectionReusableView.swift in Sources */,
@@ -446,6 +449,7 @@
 				07D9033321676A5400E2B618 /* AircraftAnnotationView.swift in Sources */,
 				07809BE4216F530E00B2C4BC /* AdminTableViewController.swift in Sources */,
 				07D903312167691A00E2B618 /* AircraftAnnotation.swift in Sources */,
+				070FB83F21730E6A003959A2 /* OrderViewController.swift in Sources */,
 				078259CE2161C9A800F2AFE9 /* Smick_MenuUITests.swift in Sources */,
 				07CAF6862172C46A00446EA0 /* MenuCollectionViewController.swift in Sources */,
 				070FB83D2172F835003959A2 /* MenuHeaderCollectionReusableView.swift in Sources */,

@@ -9,5 +9,5 @@
 import UIKit
 
 class MenuHeaderCollectionReusableView: UICollectionReusableView {
-        
+	@IBOutlet var titleLabel: UILabel?
 }

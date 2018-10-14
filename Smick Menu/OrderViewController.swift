@@ -15,6 +15,9 @@ class OrderViewController: UIViewController, CLLocationManagerDelegate {
 	@IBOutlet var mapView: MKMapView?
 	@IBOutlet var nameField: UITextField?
 	@IBOutlet var orderField: UITextField?
+	@IBOutlet var summaryField: UITextField?
+	var orderSummary: String = ""
+	
 	var userDefaults = UserDefaults(suiteName: "SmickMenu")
 	
 	var locationManager: CLLocationManager = CLLocationManager()
@@ -33,6 +36,7 @@ class OrderViewController: UIViewController, CLLocationManagerDelegate {
 		self.locationManager.desiredAccuracy = kCLLocationAccuracyBestForNavigation
 		self.locationManager.startUpdatingLocation()
 		self.mapView?.showsUserLocation = true
+		self.summaryField?.text = self.orderSummary
 		
 		Timer.scheduledTimer(withTimeInterval: 1, repeats: false) { (timer) in
 			if let userCoord = self.mapView?.userLocation.coordinate {
