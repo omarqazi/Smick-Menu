@@ -36,15 +36,8 @@ class OrderViewController: UIViewController, CLLocationManagerDelegate {
 		self.locationManager.desiredAccuracy = kCLLocationAccuracyBestForNavigation
 		self.locationManager.startUpdatingLocation()
 		self.mapView?.showsUserLocation = true
+		self.mapView?.userTrackingMode = .follow
 		self.summaryField?.text = self.orderSummary
-		
-		Timer.scheduledTimer(withTimeInterval: 1, repeats: false) { (timer) in
-			if let userCoord = self.mapView?.userLocation.coordinate {
-				let region = MKCoordinateRegion(center: userCoord, latitudinalMeters: 150, longitudinalMeters: 150)
-				self.mapView?.setRegion(region, animated: true)
-				print("timer fired")
-			}
-		}
 		
 	}
 	

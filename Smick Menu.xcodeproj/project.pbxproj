@@ -34,6 +34,9 @@
 		07D903312167691A00E2B618 /* AircraftAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D9032E2167691A00E2B618 /* AircraftAnnotation.swift */; };
 		07D9033221676A5400E2B618 /* AircraftAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D9032A2167661C00E2B618 /* AircraftAnnotationView.swift */; };
 		07D9033321676A5400E2B618 /* AircraftAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D9032A2167661C00E2B618 /* AircraftAnnotationView.swift */; };
+		07EA89E42173EED000A104B3 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EA89E32173EED000A104B3 /* ImageCollectionViewCell.swift */; };
+		07EA89E52173EED000A104B3 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EA89E32173EED000A104B3 /* ImageCollectionViewCell.swift */; };
+		07EA89E62173EED000A104B3 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EA89E32173EED000A104B3 /* ImageCollectionViewCell.swift */; };
 		523920AF9B917BE297EF982D /* Pods_Smick_MenuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1157DB3BD7FD7FF1A6804444 /* Pods_Smick_MenuUITests.framework */; };
 		83E7C98CA01F5CFCF38A635A /* Pods_Smick_MenuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A02541D205D8D723A421E3B /* Pods_Smick_MenuTests.framework */; };
 		DE8B3C4203105DF476AC05F9 /* Pods_Smick_Menu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839BB55F7F682F2D62951A8A /* Pods_Smick_Menu.framework */; };
@@ -78,6 +81,7 @@
 		07D90328216756A600E2B618 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		07D9032A2167661C00E2B618 /* AircraftAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftAnnotationView.swift; sourceTree = "<group>"; };
 		07D9032E2167691A00E2B618 /* AircraftAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftAnnotation.swift; sourceTree = "<group>"; };
+		07EA89E32173EED000A104B3 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		1157DB3BD7FD7FF1A6804444 /* Pods_Smick_MenuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smick_MenuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13411750784C5C2C35BB7E6E /* Pods-Smick Menu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smick Menu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smick Menu/Pods-Smick Menu.debug.xcconfig"; sourceTree = "<group>"; };
 		1430959208BDB717B877AAA8 /* Pods-Smick MenuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smick MenuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smick MenuUITests/Pods-Smick MenuUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +152,7 @@
 				0797239D21674A5C00F9AFA3 /* TrackerTableViewController.swift */,
 				07809BE1216F530E00B2C4BC /* AdminTableViewController.swift */,
 				07CAF6832172C46A00446EA0 /* MenuCollectionViewController.swift */,
+				07EA89E32173EED000A104B3 /* ImageCollectionViewCell.swift */,
 				07D90328216756A600E2B618 /* Order.swift */,
 				07D9032A2167661C00E2B618 /* AircraftAnnotationView.swift */,
 				078259B12161C9A600F2AFE9 /* Main.storyboard */,
@@ -422,6 +427,7 @@
 				07D9032B2167661C00E2B618 /* AircraftAnnotationView.swift in Sources */,
 				07D9032F2167691A00E2B618 /* AircraftAnnotation.swift in Sources */,
 				078259AC2161C9A600F2AFE9 /* AppDelegate.swift in Sources */,
+				07EA89E42173EED000A104B3 /* ImageCollectionViewCell.swift in Sources */,
 				07D90329216756A600E2B618 /* Order.swift in Sources */,
 				07809BE2216F530E00B2C4BC /* AdminTableViewController.swift in Sources */,
 				0779ADD02161D06900EEB75F /* OrderViewController.swift in Sources */,
@@ -434,6 +440,7 @@
 			files = (
 				07D9033221676A5400E2B618 /* AircraftAnnotationView.swift in Sources */,
 				07809BE3216F530E00B2C4BC /* AdminTableViewController.swift in Sources */,
+				07EA89E52173EED000A104B3 /* ImageCollectionViewCell.swift in Sources */,
 				07D903302167691A00E2B618 /* AircraftAnnotation.swift in Sources */,
 				070FB83E21730E6A003959A2 /* OrderViewController.swift in Sources */,
 				078259C32161C9A800F2AFE9 /* Smick_MenuTests.swift in Sources */,
@@ -448,6 +455,7 @@
 			files = (
 				07D9033321676A5400E2B618 /* AircraftAnnotationView.swift in Sources */,
 				07809BE4216F530E00B2C4BC /* AdminTableViewController.swift in Sources */,
+				07EA89E62173EED000A104B3 /* ImageCollectionViewCell.swift in Sources */,
 				07D903312167691A00E2B618 /* AircraftAnnotation.swift in Sources */,
 				070FB83F21730E6A003959A2 /* OrderViewController.swift in Sources */,
 				078259CE2161C9A800F2AFE9 /* Smick_MenuUITests.swift in Sources */,
