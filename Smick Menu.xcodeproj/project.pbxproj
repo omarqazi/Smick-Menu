@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070FB83B2172F835003959A2 /* MenuHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FB83A2172F835003959A2 /* MenuHeaderCollectionReusableView.swift */; };
+		070FB83C2172F835003959A2 /* MenuHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FB83A2172F835003959A2 /* MenuHeaderCollectionReusableView.swift */; };
+		070FB83D2172F835003959A2 /* MenuHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FB83A2172F835003959A2 /* MenuHeaderCollectionReusableView.swift */; };
+		0779ADCE2161D00400EEB75F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779ADCD2161D00400EEB75F /* MapKit.framework */; };
+		0779ADD02161D06900EEB75F /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779ADCF2161D06900EEB75F /* OrderViewController.swift */; };
+		07809BE2216F530E00B2C4BC /* AdminTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07809BE1216F530E00B2C4BC /* AdminTableViewController.swift */; };
+		07809BE3216F530E00B2C4BC /* AdminTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07809BE1216F530E00B2C4BC /* AdminTableViewController.swift */; };
+		07809BE4216F530E00B2C4BC /* AdminTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07809BE1216F530E00B2C4BC /* AdminTableViewController.swift */; };
 		078259AC2161C9A600F2AFE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078259AB2161C9A600F2AFE9 /* AppDelegate.swift */; };
-		078259AE2161C9A600F2AFE9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078259AD2161C9A600F2AFE9 /* FirstViewController.swift */; };
-		078259B02161C9A600F2AFE9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078259AF2161C9A600F2AFE9 /* SecondViewController.swift */; };
 		078259B32161C9A600F2AFE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078259B12161C9A600F2AFE9 /* Main.storyboard */; };
 		078259B52161C9A700F2AFE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078259B42161C9A700F2AFE9 /* Assets.xcassets */; };
 		078259B82161C9A700F2AFE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078259B62161C9A700F2AFE9 /* LaunchScreen.storyboard */; };
 		078259C32161C9A800F2AFE9 /* Smick_MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078259C22161C9A800F2AFE9 /* Smick_MenuTests.swift */; };
 		078259CE2161C9A800F2AFE9 /* Smick_MenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078259CD2161C9A800F2AFE9 /* Smick_MenuUITests.swift */; };
+		0797239E21674A5C00F9AFA3 /* TrackerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0797239D21674A5C00F9AFA3 /* TrackerTableViewController.swift */; };
+		07CAF6842172C46A00446EA0 /* MenuCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CAF6832172C46A00446EA0 /* MenuCollectionViewController.swift */; };
+		07CAF6852172C46A00446EA0 /* MenuCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CAF6832172C46A00446EA0 /* MenuCollectionViewController.swift */; };
+		07CAF6862172C46A00446EA0 /* MenuCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CAF6832172C46A00446EA0 /* MenuCollectionViewController.swift */; };
+		07D90329216756A600E2B618 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D90328216756A600E2B618 /* Order.swift */; };
+		07D9032B2167661C00E2B618 /* AircraftAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D9032A2167661C00E2B618 /* AircraftAnnotationView.swift */; };
+		07D9032F2167691A00E2B618 /* AircraftAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D9032E2167691A00E2B618 /* AircraftAnnotation.swift */; };
+		07D903302167691A00E2B618 /* AircraftAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D9032E2167691A00E2B618 /* AircraftAnnotation.swift */; };
+		07D903312167691A00E2B618 /* AircraftAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D9032E2167691A00E2B618 /* AircraftAnnotation.swift */; };
+		07D9033221676A5400E2B618 /* AircraftAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D9032A2167661C00E2B618 /* AircraftAnnotationView.swift */; };
+		07D9033321676A5400E2B618 /* AircraftAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D9032A2167661C00E2B618 /* AircraftAnnotationView.swift */; };
+		523920AF9B917BE297EF982D /* Pods_Smick_MenuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1157DB3BD7FD7FF1A6804444 /* Pods_Smick_MenuUITests.framework */; };
+		83E7C98CA01F5CFCF38A635A /* Pods_Smick_MenuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A02541D205D8D723A421E3B /* Pods_Smick_MenuTests.framework */; };
+		DE8B3C4203105DF476AC05F9 /* Pods_Smick_Menu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839BB55F7F682F2D62951A8A /* Pods_Smick_Menu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +55,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		070FB83A2172F835003959A2 /* MenuHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		0779ADCD2161D00400EEB75F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0779ADCF2161D06900EEB75F /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		07809BE1216F530E00B2C4BC /* AdminTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminTableViewController.swift; sourceTree = "<group>"; };
 		078259A82161C9A600F2AFE9 /* Smick Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smick Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		078259AB2161C9A600F2AFE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		078259AD2161C9A600F2AFE9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		078259AF2161C9A600F2AFE9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		078259B22161C9A600F2AFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		078259B42161C9A700F2AFE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		078259B72161C9A700F2AFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +71,20 @@
 		078259C92161C9A800F2AFE9 /* Smick MenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smick MenuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		078259CD2161C9A800F2AFE9 /* Smick_MenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smick_MenuUITests.swift; sourceTree = "<group>"; };
 		078259CF2161C9A800F2AFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0797239D21674A5C00F9AFA3 /* TrackerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackerTableViewController.swift; path = "/Users/omar/Projects/Smick Menu/Smick Menu/TrackerTableViewController.swift"; sourceTree = "<absolute>"; };
+		07CAF6832172C46A00446EA0 /* MenuCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewController.swift; sourceTree = "<group>"; };
+		07D90328216756A600E2B618 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		07D9032A2167661C00E2B618 /* AircraftAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftAnnotationView.swift; sourceTree = "<group>"; };
+		07D9032E2167691A00E2B618 /* AircraftAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftAnnotation.swift; sourceTree = "<group>"; };
+		1157DB3BD7FD7FF1A6804444 /* Pods_Smick_MenuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smick_MenuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13411750784C5C2C35BB7E6E /* Pods-Smick Menu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smick Menu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smick Menu/Pods-Smick Menu.debug.xcconfig"; sourceTree = "<group>"; };
+		1430959208BDB717B877AAA8 /* Pods-Smick MenuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smick MenuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smick MenuUITests/Pods-Smick MenuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B8EA82C30B0192827C55DFC /* Pods-Smick Menu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smick Menu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smick Menu/Pods-Smick Menu.release.xcconfig"; sourceTree = "<group>"; };
+		521964314F2E3125743F39DA /* Pods-Smick MenuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smick MenuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smick MenuUITests/Pods-Smick MenuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		839BB55F7F682F2D62951A8A /* Pods_Smick_Menu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smick_Menu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A02541D205D8D723A421E3B /* Pods_Smick_MenuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smick_MenuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE22945CB0467BB0CCECB9F /* Pods-Smick MenuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smick MenuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smick MenuTests/Pods-Smick MenuTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3FA9995EA11F646A4F24246 /* Pods-Smick MenuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smick MenuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smick MenuTests/Pods-Smick MenuTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0779ADCE2161D00400EEB75F /* MapKit.framework in Frameworks */,
+				DE8B3C4203105DF476AC05F9 /* Pods_Smick_Menu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E7C98CA01F5CFCF38A635A /* Pods_Smick_MenuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523920AF9B917BE297EF982D /* Pods_Smick_MenuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +123,8 @@
 				078259C12161C9A800F2AFE9 /* Smick MenuTests */,
 				078259CC2161C9A800F2AFE9 /* Smick MenuUITests */,
 				078259A92161C9A600F2AFE9 /* Products */,
+				6E8223DF70BFF9A520D9B67E /* Pods */,
+				AFDE7A8380FD1FC6C7F0BF52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +142,18 @@
 			isa = PBXGroup;
 			children = (
 				078259AB2161C9A600F2AFE9 /* AppDelegate.swift */,
-				078259AD2161C9A600F2AFE9 /* FirstViewController.swift */,
-				078259AF2161C9A600F2AFE9 /* SecondViewController.swift */,
+				0779ADCF2161D06900EEB75F /* OrderViewController.swift */,
+				0797239D21674A5C00F9AFA3 /* TrackerTableViewController.swift */,
+				07809BE1216F530E00B2C4BC /* AdminTableViewController.swift */,
+				07CAF6832172C46A00446EA0 /* MenuCollectionViewController.swift */,
+				07D90328216756A600E2B618 /* Order.swift */,
+				07D9032A2167661C00E2B618 /* AircraftAnnotationView.swift */,
 				078259B12161C9A600F2AFE9 /* Main.storyboard */,
 				078259B42161C9A700F2AFE9 /* Assets.xcassets */,
+				07D9032E2167691A00E2B618 /* AircraftAnnotation.swift */,
 				078259B62161C9A700F2AFE9 /* LaunchScreen.storyboard */,
 				078259B92161C9A700F2AFE9 /* Info.plist */,
+				070FB83A2172F835003959A2 /* MenuHeaderCollectionReusableView.swift */,
 			);
 			path = "Smick Menu";
 			sourceTree = "<group>";
@@ -128,6 +176,30 @@
 			path = "Smick MenuUITests";
 			sourceTree = "<group>";
 		};
+		6E8223DF70BFF9A520D9B67E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13411750784C5C2C35BB7E6E /* Pods-Smick Menu.debug.xcconfig */,
+				2B8EA82C30B0192827C55DFC /* Pods-Smick Menu.release.xcconfig */,
+				C3FA9995EA11F646A4F24246 /* Pods-Smick MenuTests.debug.xcconfig */,
+				9EE22945CB0467BB0CCECB9F /* Pods-Smick MenuTests.release.xcconfig */,
+				1430959208BDB717B877AAA8 /* Pods-Smick MenuUITests.debug.xcconfig */,
+				521964314F2E3125743F39DA /* Pods-Smick MenuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFDE7A8380FD1FC6C7F0BF52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0779ADCD2161D00400EEB75F /* MapKit.framework */,
+				839BB55F7F682F2D62951A8A /* Pods_Smick_Menu.framework */,
+				9A02541D205D8D723A421E3B /* Pods_Smick_MenuTests.framework */,
+				1157DB3BD7FD7FF1A6804444 /* Pods_Smick_MenuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 078259D22161C9A800F2AFE9 /* Build configuration list for PBXNativeTarget "Smick Menu" */;
 			buildPhases = (
+				377FFE504D945FD7CA7F71A0 /* [CP] Check Pods Manifest.lock */,
 				078259A42161C9A600F2AFE9 /* Sources */,
 				078259A52161C9A600F2AFE9 /* Frameworks */,
 				078259A62161C9A600F2AFE9 /* Resources */,
+				D4C7F3246FE428F07CBC12CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 078259D52161C9A800F2AFE9 /* Build configuration list for PBXNativeTarget "Smick MenuTests" */;
 			buildPhases = (
+				9C595D2C36334CF8111623E2 /* [CP] Check Pods Manifest.lock */,
 				078259BA2161C9A800F2AFE9 /* Sources */,
 				078259BB2161C9A800F2AFE9 /* Frameworks */,
 				078259BC2161C9A800F2AFE9 /* Resources */,
@@ -170,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 078259D82161C9A800F2AFE9 /* Build configuration list for PBXNativeTarget "Smick MenuUITests" */;
 			buildPhases = (
+				1E9EDA9F8E2DD015A2861565 /* [CP] Check Pods Manifest.lock */,
 				078259C52161C9A800F2AFE9 /* Sources */,
 				078259C62161C9A800F2AFE9 /* Frameworks */,
 				078259C72161C9A800F2AFE9 /* Resources */,
@@ -254,14 +330,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E9EDA9F8E2DD015A2861565 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smick MenuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		377FFE504D945FD7CA7F71A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smick Menu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C595D2C36334CF8111623E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smick MenuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C7F3246FE428F07CBC12CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Smick Menu/Pods-Smick Menu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smick Menu/Pods-Smick Menu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		078259A42161C9A600F2AFE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				078259B02161C9A600F2AFE9 /* SecondViewController.swift in Sources */,
+				0797239E21674A5C00F9AFA3 /* TrackerTableViewController.swift in Sources */,
+				07CAF6842172C46A00446EA0 /* MenuCollectionViewController.swift in Sources */,
+				070FB83B2172F835003959A2 /* MenuHeaderCollectionReusableView.swift in Sources */,
+				07D9032B2167661C00E2B618 /* AircraftAnnotationView.swift in Sources */,
+				07D9032F2167691A00E2B618 /* AircraftAnnotation.swift in Sources */,
 				078259AC2161C9A600F2AFE9 /* AppDelegate.swift in Sources */,
-				078259AE2161C9A600F2AFE9 /* FirstViewController.swift in Sources */,
+				07D90329216756A600E2B618 /* Order.swift in Sources */,
+				07809BE2216F530E00B2C4BC /* AdminTableViewController.swift in Sources */,
+				0779ADD02161D06900EEB75F /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +430,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D9033221676A5400E2B618 /* AircraftAnnotationView.swift in Sources */,
+				07809BE3216F530E00B2C4BC /* AdminTableViewController.swift in Sources */,
+				07D903302167691A00E2B618 /* AircraftAnnotation.swift in Sources */,
 				078259C32161C9A800F2AFE9 /* Smick_MenuTests.swift in Sources */,
+				07CAF6852172C46A00446EA0 /* MenuCollectionViewController.swift in Sources */,
+				070FB83C2172F835003959A2 /* MenuHeaderCollectionReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +443,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D9033321676A5400E2B618 /* AircraftAnnotationView.swift in Sources */,
+				07809BE4216F530E00B2C4BC /* AdminTableViewController.swift in Sources */,
+				07D903312167691A00E2B618 /* AircraftAnnotation.swift in Sources */,
 				078259CE2161C9A800F2AFE9 /* Smick_MenuUITests.swift in Sources */,
+				07CAF6862172C46A00446EA0 /* MenuCollectionViewController.swift in Sources */,
+				070FB83D2172F835003959A2 /* MenuHeaderCollectionReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +605,7 @@
 		};
 		078259D32161C9A800F2AFE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13411750784C5C2C35BB7E6E /* Pods-Smick Menu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +624,7 @@
 		};
 		078259D42161C9A800F2AFE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B8EA82C30B0192827C55DFC /* Pods-Smick Menu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +643,7 @@
 		};
 		078259D62161C9A800F2AFE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3FA9995EA11F646A4F24246 /* Pods-Smick MenuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +665,7 @@
 		};
 		078259D72161C9A800F2AFE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE22945CB0467BB0CCECB9F /* Pods-Smick MenuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +687,7 @@
 		};
 		078259D92161C9A800F2AFE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1430959208BDB717B877AAA8 /* Pods-Smick MenuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +708,7 @@
 		};
 		078259DA2161C9A800F2AFE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 521964314F2E3125743F39DA /* Pods-Smick MenuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
